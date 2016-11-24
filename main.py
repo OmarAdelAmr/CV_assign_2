@@ -1,9 +1,125 @@
 import cv2 as cv
 import numpy as np
+import sys
 
 
-def question_1():
-    print("Hello")
+def make_labels(image):
+    image_height, image_width = image.shape[:2]
+    result = np.zeros((image_height, image_width), np.uint8)
+    result[0][0] = 1
+    labels = [(1,)]
+    label_counter = 2
+    for y in range(0, image_height):
+        for x in range(0, image_width):
+            has_similar_label = False
+            neighbours = [(y - 1, x - 1), (y - 1, x), (y - 1, x + 1), (y, x - 1)]
+            related_labels = ()
+            for cell in neighbours:
+                if cell[1] < image_width and cell[1] >= 0 and cell[0] < image_height and cell[0] >= 0:
+                    if image[y][x] == image[cell[0]][cell[1]]:
+                        has_similar_label = True
+                        related_labels += (result[cell[0]][cell[1]],)
+                        result[y][x] = result[cell[0]][cell[1]]
+
+                        # if has_similar_label:
+                        #     replacement_index_counter = 0
+                        #     for temp_label in labels:
+                        #         for lbl in related_labels:
+                        #             if temp_label.__contains__(lbl):
+                        #                 labels[replacement_index_counter] = tuple(set(lbl + related_labels))
+                        #         replacement_index_counter += 1
+                        # else:
+                        #     result[y][x] = label_counter
+                        #     labels.append((label_counter,))
+                        #     label_counter += 1
+
+            if not has_similar_label:
+                result[y][x] = label_counter
+                labels.append((label_counter,))
+                label_counter += 1
+            else:
+                labels.append(related_labels)
+    labels = list(set(labels))
+    labels = [set(h) for h in labels if h]
+    sys.setrecursionlimit(5000)
+    labels = find_intersection(labels)
+    return len(labels)
 
 
-question_1()
+def find_intersection(m_list):
+    m_list_duplicate = m_list
+    for i, v in enumerate(m_list):
+        for j, k in enumerate(m_list[i + 1:], i + 1):
+            if v & k:
+                m_list_duplicate[i] = v.union(m_list.pop(j))
+                return find_intersection(m_list)
+    return m_list
+
+
+def question_1_connected_component_labeling_l1():
+    l1_binary_image = cv.imread("L1_binary.jpg", 0)
+
+    result = make_labels(image=l1_binary_image)
+    print "Number of classes in L1 Binary = ", result
+    return result
+
+
+def question_1_connected_component_labeling_l3():
+    l3_gray_image = cv.imread("L3_gray_front.jpg", 0)
+    image_height, image_width = l3_gray_image.shape[:2]
+    init_class_image = np.zeros((image_height, image_width), np.uint8)
+
+    for y in range(0, image_height):
+        for x in range(0, image_width):
+            if l3_gray_image[y][x] >= 0 and l3_gray_image[y][x] < 64:
+                init_class_image[y][x] = 1
+            elif l3_gray_image[y][x] >= 64 and l3_gray_image[y][x] < 128:
+                init_class_image[y][x] = 2
+            elif l3_gray_image[y][x] >= 128 and l3_gray_image[y][x] < 192:
+                init_class_image[y][x] = 3
+            else:
+                init_class_image[y][x] = 4
+
+    result = make_labels(image=init_class_image)
+    print "Number of classes in L3 Gray = ", result
+    return result
+
+
+# question_1_connected_component_labeling_l1()
+# question_1_connected_component_labeling_l3()
+
+def try1():
+    img = cv.imread("L3_gray_front.jpg")
+    gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
+
+    # Now we split the image to 5000 cells, each 20x20 size
+    cells = [np.hsplit(row, 100) for row in np.vsplit(gray, 50)]
+
+    # Make it into a Numpy array. It size will be (50,100,20,20)
+    x = np.array(cells)
+
+    # Now we prepare train_data and test_data.
+    train = x[:, :50].reshape(-1, 400).astype(np.float32)  # Size = (2500,400)
+    test = x[:, 50:100].reshape(-1, 400).astype(np.float32)  # Size = (2500,400)
+
+    # Create labels for train and test data
+    k = np.arange(10)
+    train_labels = np.repeat(k, 250)[:, np.newaxis]
+    test_labels = train_labels.copy()
+
+    # Initiate kNN, train the data, then test it with test data for k=1
+    knn = cv.KNearest()
+    knn.train(train, train_labels)
+    ret, result, neighbours, dist = knn.find_nearest(test, k=5)
+
+    # Now we check the accuracy of classification
+    # For that, compare the result with test_labels and check which are wrong
+    matches = result == test_labels
+    correct = np.count_nonzero(matches)
+    accuracy = correct * 100.0 / result.size
+    print accuracy
+
+# L = [(1, 2, 3, 8), (4,), (1, 3), (2, 3), (4, 5, 8), (5, 6,), (6, 7,)]
+# s = [set(i) for i in L if i]
+# print find_intersection(s)
+# try1()
