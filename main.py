@@ -6,16 +6,20 @@ import sys
 def make_labels(image):
     image_height, image_width = image.shape[:2]
     result = np.zeros((image_height, image_width), np.uint8)
-    result[0][0] = 1
-    labels = [(1,)]
-    label_counter = 2
+    # result[0][0] = 1
+    labels = []
+    label_counter = 1
     for y in range(0, image_height):
         for x in range(0, image_width):
+            # jjj = raw_input("Press Enter")
             has_similar_label = False
             neighbours = [(y - 1, x - 1), (y - 1, x), (y - 1, x + 1), (y, x - 1)]
             related_labels = ()
             for cell in neighbours:
                 if cell[1] < image_width and cell[1] >= 0 and cell[0] < image_height and cell[0] >= 0:
+                    # print cell
+                    # print y, ", ", x
+                    # print labels
                     if image[y][x] == image[cell[0]][cell[1]]:
                         has_similar_label = True
                         related_labels += (result[cell[0]][cell[1]],)
@@ -32,13 +36,18 @@ def make_labels(image):
                         #     result[y][x] = label_counter
                         #     labels.append((label_counter,))
                         #     label_counter += 1
+            # print related_labels
+            # print labels
+            # if len(related_labels) > 1:
+            #     print ">1"
 
-            if not has_similar_label:
+            if has_similar_label:
+                labels.append(related_labels)
+            else:
                 result[y][x] = label_counter
                 labels.append((label_counter,))
                 label_counter += 1
-            else:
-                labels.append(related_labels)
+
     labels = list(set(labels))
     labels = [set(h) for h in labels if h]
     sys.setrecursionlimit(5000)
@@ -119,7 +128,9 @@ def try1():
     accuracy = correct * 100.0 / result.size
     print accuracy
 
+
 # L = [(1, 2, 3, 8), (4,), (1, 3), (2, 3), (4, 5, 8), (5, 6,), (6, 7,)]
 # s = [set(i) for i in L if i]
 # print find_intersection(s)
 # try1()
+question_1_connected_component_labeling_l1()

@@ -11,7 +11,7 @@ model.train(samples, responses)
 
 ############################# testing part  #########################
 
-im = cv2.imread('test1.png')
+im = cv2.imread('L3_gray_front.jpg')
 out = np.zeros(im.shape, np.uint8)
 gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 thresh = cv2.adaptiveThreshold(gray, 255, 1, 1, 11, 2)
