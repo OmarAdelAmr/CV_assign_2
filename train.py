@@ -3,7 +3,8 @@ import sys
 import numpy as np
 import cv2
 
-im = cv2.imread('training_resources/all.png')
+im = cv2.imread('training_resources/numbers_set.png')
+# im = cv2.imread('ind.jpg')
 im3 = im.copy()
 
 gray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
@@ -40,5 +41,5 @@ responses = np.array(responses, np.float32)
 responses = responses.reshape((responses.size, 1))
 print "training complete"
 
-np.savetxt('generalsamples.data', samples)
-np.savetxt('generalresponses.data', responses)
+np.savetxt('generalsamplesNumbers.data', samples)
+np.savetxt('generalresponsesNumbers.data', responses)
