@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import cv2
 import numpy as np
 
@@ -40,11 +43,11 @@ def sort_contours(cnts, method="left-to-right"):
     return (cnts, boundingBoxes)
 
 
-im = cv2.imread('plates/L1_front.png')
-im = cv2.imread('plates/L2_front.png')
-# im = cv2.imread('plates/L3_front.png')
+# im = cv2.imread('plates/L1_front.png')
+# im = cv2.imread('plates/L2_front.png')
+im = cv2.imread('plates/L3_front.png')
 im = cv2.imread('plates/L4_front.png')
-# im = cv2.imread('plates/L5_front.jpg')
+im = cv2.imread('plates/L5_front.jpg')
 # im = cv2.imread('plates/L6_front.jpg')
 # im = cv2.imread('plates/L7_front.jpg')
 
@@ -87,6 +90,8 @@ for cnt in contours:
             string = str(int((results[0][0])))
             if string == '6' and roi.shape[0] < 100:
                 string = '9'
+            elif string == '9' and roi.shape[0] > 100:
+                string = '6'
             string_cumulative += string
             cv2.putText(out, string, (x, y + h), 0, 1, (0, 255, 0))
 
@@ -96,3 +101,6 @@ cv2.imshow('out', out)
 # cv2.imshow('thresh', thresh)
 cv2.imshow('gray', gray)
 cv2.waitKey(0)
+
+abook = u'ت ي س ت'
+print abook
