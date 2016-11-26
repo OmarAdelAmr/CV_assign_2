@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 #######   training part    ###############
-# samples = np.loadtxt('trained_data/generalsamples2.data', np.float32)
-# responses = np.loadtxt('trained_data/generalresponses2.data', np.float32)
+# samples = np.loadtxt('trained_data_numbers/generalsamples2.data', np.float32)
+# responses = np.loadtxt('trained_data_numbers/generalresponses2.data', np.float32)
 
 samples = np.loadtxt('generalsamplesNumbers.data', np.float32)
 responses = np.loadtxt('generalresponsesNumbers.data', np.float32)
@@ -40,10 +40,13 @@ def sort_contours(cnts, method="left-to-right"):
     return (cnts, boundingBoxes)
 
 
-# im = cv2.imread('plates/L1_front.png')
-# im = cv2.imread('plates/L2_front.png')
-im = cv2.imread('plates/L3_front.png')
-# im = cv2.imread('plates/L4_front.png')
+im = cv2.imread('plates/L1_front.png')
+im = cv2.imread('plates/L2_front.png')
+# im = cv2.imread('plates/L3_front.png')
+im = cv2.imread('plates/L4_front.png')
+# im = cv2.imread('plates/L5_front.jpg')
+# im = cv2.imread('plates/L6_front.jpg')
+# im = cv2.imread('plates/L7_front.jpg')
 
 im = cv2.resize(im, (1050, 580))
 plate_height, plate_width = im.shape[:2]
@@ -58,7 +61,6 @@ part = im[y_min:y_max, x_min:x_max]
 div_factor = 2
 
 part = cv2.resize(part, (int((x_max - x_min) / div_factor), int((y_max - y_min) / div_factor)))
-print part.shape
 
 out = np.zeros(part.shape, np.uint8)
 gray = cv2.cvtColor(part, cv2.COLOR_BGR2GRAY)
@@ -78,19 +80,19 @@ for cnt in contours:
         if h > 28:
             cv2.rectangle(im, (x, y), (x + w, y + h), (0, 255, 0), 2)
             roi = thresh[y:y + h, x:x + w]
-            # cv2.imshow("roi", roi)
             roismall = cv2.resize(roi, (10, 10))
             roismall = roismall.reshape((1, 100))
             roismall = np.float32(roismall)
             retval, results, neigh_resp, dists = model.find_nearest(roismall, k=1)
             string = str(int((results[0][0])))
+            if string == '6' and roi.shape[0] < 100:
+                string = '9'
             string_cumulative += string
             cv2.putText(out, string, (x, y + h), 0, 1, (0, 255, 0))
 
 print "Plate No.", string_cumulative
 # cv2.imshow('im', im)
 cv2.imshow('out', out)
-
 # cv2.imshow('thresh', thresh)
 cv2.imshow('gray', gray)
 cv2.waitKey(0)

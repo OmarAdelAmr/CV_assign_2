@@ -2,22 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6738c9b5-7b8e-4ec5-bf5a-125563eee2aa" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generalresponsesall.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generalsamplesall.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plates/L1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plates/L1_binary.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plates/L1_front.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plates/L2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plates/L3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plates/L3_gray_front.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/plates/L4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/logo.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr5.png" afterPath="$PROJECT_DIR$/training_resources/numbers_set.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_resources/samples.odt" afterPath="$PROJECT_DIR$/training_resources/samples.odt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponsesNumbers.data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamplesNumbers.data" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/big/big9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/training_resources/numbers_set.png" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/numbers_recognition_test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/train.py" afterPath="$PROJECT_DIR$/numbers_training.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses2.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses2.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses3.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses3.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses4.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses4.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses5.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses5.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses6.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses6.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses7.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses7.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalresponses8.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalresponses8.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples2.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples2.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples3.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples3.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples4.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples4.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples5.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples5.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples6.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples6.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples7.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples7.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/trained_data/generalsamples8.data" afterPath="$PROJECT_DIR$/trained_data_numbers/generalsamples8.data" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/100.png" afterPath="$PROJECT_DIR$/numbers_training_set/100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/all.png" afterPath="$PROJECT_DIR$/numbers_training_set/all.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/bold.png" afterPath="$PROJECT_DIR$/numbers_training_set/bold.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/dc.png" afterPath="$PROJECT_DIR$/numbers_training_set/dc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/kleter.png" afterPath="$PROJECT_DIR$/numbers_training_set/kleter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/mixed.png" afterPath="$PROJECT_DIR$/numbers_training_set/mixed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/new.png" afterPath="$PROJECT_DIR$/numbers_training_set/new.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/new2.png" afterPath="$PROJECT_DIR$/numbers_training_set/new2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/plt.png" afterPath="$PROJECT_DIR$/numbers_training_set/plt.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/plt2.png" afterPath="$PROJECT_DIR$/numbers_training_set/plt2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/plt3.png" afterPath="$PROJECT_DIR$/numbers_training_set/plt3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/plt5.png" afterPath="$PROJECT_DIR$/numbers_training_set/numbers_set.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/samples.odt" afterPath="$PROJECT_DIR$/numbers_training_set/samples.odt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/test1.png" afterPath="$PROJECT_DIR$/numbers_training_set/test1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr1.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr2.odt" afterPath="$PROJECT_DIR$/numbers_training_set/tr2.odt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr2.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr22.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr22.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr3.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr4.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr6.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr6.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr7.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr7.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr8.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr8.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/training_resources/tr_new_1.png" afterPath="$PROJECT_DIR$/numbers_training_set/tr_new_1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.py" afterPath="$PROJECT_DIR$/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train.py" afterPath="$PROJECT_DIR$/train.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/training_resources/.~lock.samples.odt#" afterPath="$PROJECT_DIR$/training_resources/.~lock.samples.odt#" />
     </list>
     <ignored path="CV assign 2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,9 +69,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/CV assign 2$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1480110229649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CV assign 2$TEST.coverage" NAME="TEST Coverage Results" MODIFIED="1480120662910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CV assign 2$main.coverage" NAME="main Coverage Results" MODIFIED="1480029433339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CV assign 2$TRAIN.coverage" NAME="TRAIN Coverage Results" MODIFIED="1480110061115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CV assign 2$TRAIN.coverage" NAME="TRAIN Coverage Results" MODIFIED="1480115941338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CV assign 2$letters_training.coverage" NAME="letters_training Coverage Results" MODIFIED="1480116138480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -46,7 +86,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
+            <state relative-caret-position="1728">
               <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
@@ -55,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/train.py">
+      <file leaf-file-name="numbers_training.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numbers_training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-231">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="630">
+              <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -67,11 +107,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.py">
+      <file leaf-file-name="letters_training.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letters_training.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+            <state relative-caret-position="54">
+              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="letters_recognition_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/letters_recognition_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="86" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="numbers_recognition_test.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/numbers_recognition_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -80,6 +144,13 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,8 +161,12 @@
         <option value="$PROJECT_DIR$/TRAIN.py" />
         <option value="$PROJECT_DIR$/TEST.py" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/train.py" />
         <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/numbers_training.py" />
+        <option value="$PROJECT_DIR$/letters_recognition_test.py" />
+        <option value="$PROJECT_DIR$/letters_training.py" />
+        <option value="$PROJECT_DIR$/numbers_recognition_test.py" />
       </list>
     </option>
   </component>
@@ -102,10 +177,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1413" />
+    <option name="x" value="47" />
     <option name="y" value="-4" />
-    <option name="width" value="1233" />
-    <option name="height" value="1028" />
+    <option name="width" value="1319" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -114,7 +189,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -132,8 +207,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,15 +214,9 @@
               <option name="myItemId" value="CV assign 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CV assign 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CV assign 2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -161,17 +228,36 @@
               <option name="myItemId" value="CV assign 2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="training_resources" />
+              <option name="myItemId" value="CV assign 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CV assign 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/letters_recognition_test.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plates" />
+      <recent name="$PROJECT_DIR$/trained_data" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.TEST">
     <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -205,7 +291,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CV assign 2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/letters_recognition_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -223,7 +309,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CV assign 2" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numbers_recognition_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="letters_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CV assign 2" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/letters_training.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -436,16 +540,18 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Python.main" />
       <item index="1" class="java.lang.String" itemvalue="Python.TRAIN" />
       <item index="2" class="java.lang.String" itemvalue="Python.TEST" />
+      <item index="3" class="java.lang.String" itemvalue="Python.letters_training" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Python.TEST" />
-        <item index="1" class="java.lang.String" itemvalue="Python.TRAIN" />
-        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="1" class="java.lang.String" itemvalue="Python.letters_training" />
+        <item index="2" class="java.lang.String" itemvalue="Python.TRAIN" />
+        <item index="3" class="java.lang.String" itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -463,17 +569,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1413" y="-4" width="1233" height="1028" extended-state="6" />
+    <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22627737" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21152388" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32216215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44544095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -483,6 +588,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -504,6 +610,46 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letters_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letters_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="86" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1728">
           <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
           <folding>
@@ -512,7 +658,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
+    <entry file="file://$PROJECT_DIR$/numbers_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1728">
+          <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
@@ -522,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/numbers_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -542,7 +718,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
+    <entry file="file://$PROJECT_DIR$/numbers_training.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
@@ -552,7 +728,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/numbers_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -573,25 +749,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.~lock.samples.odt#" />
-    <entry file="file://$PROJECT_DIR$/generalresponsesall.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/generalsamplesall.data">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/generalresponsesall.data" />
+    <entry file="file://$PROJECT_DIR$/generalsamplesall.data" />
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
+        <state relative-caret-position="1728">
           <caret line="98" column="41" selection-start-line="98" selection-start-column="41" selection-end-line="98" selection-end-column="41" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
@@ -607,36 +769,83 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generalsamples1.data">
+    <entry file="file://$PROJECT_DIR$/generalsamples1.data" />
+    <entry file="file://$PROJECT_DIR$/generalresponses1.data" />
+    <entry file="file://$PROJECT_DIR$/trained_data_numbers/generalsamplesNumbers.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/generalresponses1.data">
+    <entry file="file://$PROJECT_DIR$/numbers_training_set/numbers_set.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generalsamplesNumbers.data">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/train.py">
+    <entry file="file://$PROJECT_DIR$/generalresponsesNumbers.data">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_training_set/tr_new_1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_training_set/numbers_set.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
+    <entry file="file://$PROJECT_DIR$/letters_recognition_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="1260">
+          <caret line="71" column="4" selection-start-line="71" selection-start-column="4" selection-end-line="86" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/letters_training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plates/L1_front.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numbers_recognition_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="94" column="22" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
