@@ -4,8 +4,8 @@
 import cv2
 from connected_component_labeling import question_1_connected_component_labeling_l1
 from connected_component_labeling import question_1_connected_component_labeling_l3
-from numbers_recognition_test import extract_numbers
-from letters_recognition_test import extract_letters
+from numbers_recognition import extract_numbers
+from letters_recognition import extract_letters
 
 
 def question1_L1():
